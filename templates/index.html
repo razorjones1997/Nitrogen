@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample Webpage</title>
+    <link rel="stylesheet" type="text/css" href="static\stt.css">
+  </head>
+  <body>
+    <h1>Nitrogen Value Predictor</h1>
+    <form action="{{ url_for("root")}}" method="POST">
+      <div class="f1">
+        pH: <input id="ph" type="text" name="pH" value=""><br><br>
+        Electric Conductivity: <input id="ec" type="text" name="Electric Conductivity" value=""><br><br>
+        Organic Carbon: <input id="oc" type="text" name="Organic Carbon" value=""><br><br>
+        Phosphorus: <input id="P" type="text" name="Phosphorus" value=""><br><br>
+        Potassium: <input id="K" type="text" name="Potassium" value=""><br><br>
+        Sulphur: <input id="S" type="text" name="Sulphur" value=""><br><br>
+        Zinc: <input id="Zn" type="text" name="Zinc" value=""><br><br>
+        Iron: <input id="Fe" type="text" name="Iron" value=""><br><br>
+        Copper: <input id="Cu" type="text" name="Copper" value=""><br><br>
+        Manganese: <input id="Mn" type="text" name="Manganese" value=""><br><br>
+        Boron: <input id="B" type="text" name="Boron" value=""><br><br>
+        <button id="bt1" type="submit">Find N Value</button>
+      </div>
+    </form>
+  </body>
+</html>

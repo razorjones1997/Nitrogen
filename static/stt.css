@@ -1,0 +1,21 @@
+body{
+  background-image: url("background1.jpg")
+}
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.f1{
+  color: white;
+  text-align: center;
+}
+#fn{
+  margin-left: 2%;
+}
+#sn{
+  margin-left: 0.95%;
+}
+#bt1{
+  margin-left: 8%;
+}
